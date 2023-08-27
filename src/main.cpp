@@ -45,12 +45,20 @@ ________________[_]_[_]_[_]_________/_]_[_\___________________________________
 
 #include "Config_mcu.h"
 
+
+
 void setup() {
+   Config_mcu();
+  
 
 }
 
 void loop() {
  
+ comunicacao();
+
+ Supervisionamento(); 
+
+
 
 }
-

@@ -14,7 +14,8 @@
 // ======================================================================================================
 // --- Protótipo das Funções ---
 
-
-
+void       Config_mcu ();
+void Supervisionamento(); 
+void       comunicacao();
 
 #endif
